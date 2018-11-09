@@ -4,7 +4,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'ImagePickerDemo' do
-	pod 'ImagePicker', path: '../../'
-	pod 'Lightbox'
-	pod 'Hue'
+  pod 'ImagePicker', path: '../../'
+  pod 'Lightbox', '2.3.0'
+  pod 'Hue', '3.0.1'
 end

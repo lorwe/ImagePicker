@@ -1,8 +1,8 @@
 included: # paths to include during linting. `--path` is ignored if present.
-  - Source
+- Source
 excluded: # paths to ignore during linting. Takes precedence over `included`.
-  - Carthage
-  - Pods
+- Carthage
+- Pods
 
 # configurable rules can be customized from this configuration file
 # binary rules can set their severity level
@@ -14,8 +14,8 @@ force_try:
 line_length: 200
 # they can set both implicitly with an array
 type_body_length:
-  - 300 # warning
-  - 400 # error
+- 300 # warning
+- 400 # error
 # or they can set both explicitly
 file_length:
   warning: 500
@@ -32,9 +32,9 @@ variable_name:
   min_length: # only min_length
     error: 2 # only error
   excluded: # excluded via string array
-    - x
-    - y
-    - id
-    - URL
-    - GlobalAPIKey
+  - x
+  - y
+  - id
+  - URL
+  - GlobalAPIKey
 reporter: "xcode" # reporter type (xcode, json, csv, checkstyle)
